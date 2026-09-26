@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+test-run/
+.test-tmp/
+WorkLog/
+@AutomationLog.txt
+.context/

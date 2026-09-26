@@ -1,0 +1,15 @@
+{
+  "log_dir": "%LOCALAPPDATA%\\WorkLog",
+  "afk_threshold_sec": 300,
+  "text_truncate_length": 200,
+  "text_truncate_keep_head": 50,
+  "text_truncate_keep_tail": 20,
+  "exclude_window_titles": ["password", "登录", "支付", "银行"],
+  "key_burst_interval_sec": 30,
+  "uia_query_timeout_ms": 200,
+  "weekly_archive_cron": "0 3 * * 0",
+  "monthly_compress_cron": "0 4 1 * *",
+  "single_instance_mutex_name": "Global\\WorkLogTrackerMutex",
+  "error_log_max_bytes": 5242880,
+  "max_log_file_bytes": 10485760
+}
